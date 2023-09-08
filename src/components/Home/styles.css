@@ -1,0 +1,11 @@
+.home {
+    margin: auto;
+    max-width: 1040px;
+    display: flex;
+    gap: 20px;
+}
+
+.profile-photo {
+    max-width: 500px;
+    border-radius: 10px;
+}
