@@ -1,0 +1,26 @@
+.list {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin: 0;
+}
+
+nav {
+    max-width: 1040px;
+    margin: auto;
+}
+
+#top-header {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(251, 218, 223);
+}
+
+.menu-item {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+  }

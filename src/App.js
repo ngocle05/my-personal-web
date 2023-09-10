@@ -5,17 +5,20 @@ import Home from "./components/Home";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Skill from "./components/Skill";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <About />
-      <Skill />
-      <Work />
-      <Contact />
-      
-    </div>
+    <>
+      <Header />
+      <div className="App">
+        <Home />
+        <About />
+        <Skill />
+        <Work />
+        <Contact />
+      </div>
+    </>
   );
 }
 
