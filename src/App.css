@@ -38,3 +38,12 @@
     transform: rotate(360deg);
   }
 }
+
+.section-header {
+  border: 1px solid red;
+}
+
+.section-header-nav {
+  background-color: red;
+  padding-top: 59px;
+}

@@ -10,16 +10,16 @@ function Header() {
               <a href="#">Home</a>
             </li>
             <li className="menu-item">
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="menu-item">
-              <a href="#">Skill</a>
+              <a href="#skill">Skill</a>
             </li>
             <li className="menu-item">
-              <a href="#">Work</a>
+              <a href="#work">Work</a>
             </li>
             <li className="menu-item">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>

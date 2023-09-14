@@ -1,0 +1,24 @@
+.skill-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 30px;
+}
+
+.skill-card {
+  padding: 6px 12px;
+  font-size: 24px;
+  background: rgb(251, 218, 223);
+  border-radius: 4px;
+  font-weight: 600;
+  color: #666666;
+}
+
+#skill-header {
+  text-align: right;
+  line-height: 70px;
+  border-bottom: 1px solid rgb(191, 191, 206);
+}
+
+
+
