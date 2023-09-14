@@ -3,11 +3,11 @@ import "./styles.css";
 function Header() {
   return (
     <>
-      <div id="top-header">
+      <div id="sticky-header">
         <nav>
           <ul className="list">
             <li className="menu-item">
-              <a href="#">Home</a>
+              <a href="#top">Home</a>
             </li>
             <li className="menu-item">
               <a href="#about">About</a>

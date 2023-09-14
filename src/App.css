@@ -40,10 +40,10 @@
 }
 
 .section-header {
-  border: 1px solid red;
+  
 }
 
 .section-header-nav {
-  background-color: red;
   padding-top: 59px;
+  margin-top: -59px;
 }

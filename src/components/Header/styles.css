@@ -10,10 +10,11 @@ nav {
     margin: auto;
 }
 
-#top-header {
+#sticky-header {
     width: 100%;
     position: fixed;
     background-color: rgb(251, 218, 223);
+    z-index: 9999;
 }
 
 .menu-item {

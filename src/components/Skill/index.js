@@ -17,8 +17,8 @@ function Skill() {
   ];
   return (
     <>
-      <div className = "section-header-nav" id="skill"></div>
       <div className="section-header">
+        <div className="section-header-nav" id="skill"></div>
         <h1 id="skill-header">Skill</h1>
       </div>
 

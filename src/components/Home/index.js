@@ -3,7 +3,7 @@ import "./styles.css";
 function Home() {
   return (
     <>
-      <div  className="header-padding"></div>
+      <div id="top"></div>
 
       <div className="section-header">
         <h1 id="home-header">Home</h1>
