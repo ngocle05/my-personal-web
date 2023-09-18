@@ -1,35 +1,35 @@
 import "./styles.css";
 
 function Home() {
+  const fontSize = "20px";
+  const fontFamily = "Source Code Pro";
+
   return (
     <>
-      <div id="top"></div>
+      <div id="home"></div>
 
-      <div className="section-header">
+      <div className="section-header colored-background-header">
         <h1 id="home-header">Home</h1>
       </div>
 
-      <div className="home">
-        <div className="home-content">
-          <h1>
-            <strong>👋</strong>
-          </h1>
-          <h1>
-            <strong>Hi,</strong>
-            <br />
-            <strong>I'm Ngoc Le</strong>
-            <br />
-            <br />A dedicated learner
-            <br />
-            with
-            <br />a curious mind
-          </h1>
-        </div>
-        <div className="home-content">
-          <img
-            src="https://drive.google.com/uc?export=view&id=1c2ORaoNjAdutvPLYqP86FPwbhvI4c7BN"
-            className="profile-photo"
-          />
+      <div className="home-background">
+        <div className="home">
+          <div className="home-content">
+            <h1>
+              <strong style={{ fontFamily: fontFamily, fontSize: fontSize }}>
+                Hi, my name is{" "}
+              </strong>
+              <br />
+              <strong>Ngoc Le</strong>
+              <br />
+              <br />A dedicated learner
+              <br />
+              with a curious mind
+            </h1>
+          </div>
+          <div className="home-content">
+            <img src="image/profile_image.jpg" className="profile-photo" />
+          </div>
         </div>
       </div>
     </>

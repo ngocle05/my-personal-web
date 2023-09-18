@@ -1,13 +1,6 @@
-.work-content{
+.work-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 5rem;
   padding: 30px;
 }
-
-#work-header {
-  text-align: right;
-  line-height: 70px;
-  border-bottom: 1px solid rgb(191, 191, 206);
-}
-

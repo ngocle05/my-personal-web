@@ -2,24 +2,22 @@ import "./styles.css";
 
 function Skill() {
   const skills = [
+    "Python",
+    "Java",
     "HTML",
     "CSS",
     "JavaScript",
     "React",
-    "SASS",
-    "GIT",
+    "Git",
     "Github",
-    "Responsive Design",
-    "SEO",
-    "Terminal",
-    "Express Basics",
     "SQL Basics",
+    "Swift"
   ];
   return (
     <>
       <div className="section-header">
         <div className="section-header-nav" id="skill"></div>
-        <h1 id="skill-header">Skill</h1>
+        <h1>Skills</h1>
       </div>
 
       <div className="skill-content">

@@ -7,13 +7,13 @@ function Header() {
         <nav>
           <ul className="list">
             <li className="menu-item">
-              <a href="#top">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="menu-item">
               <a href="#about">About</a>
             </li>
             <li className="menu-item">
-              <a href="#skill">Skill</a>
+              <a href="#skill">Skills</a>
             </li>
             <li className="menu-item">
               <a href="#work">Work</a>
