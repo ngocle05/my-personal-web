@@ -1,5 +1,6 @@
 {
   "name": "my-personal-web",
+  "homepage": "https://ngocle05.github.io/my-personal-web/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
